@@ -34,32 +34,16 @@ A modern e-commerce web application built using **React.js** and **Vite**. This 
 
 2. **Install dependencies**
 
-   ```bash
    npm install
-   ```
+   
 
 3. **Start the development server**
 
-   ```bash
    npm run dev
-   ```
 
 4. Visit the app in your browser: `http://localhost:5173`
 
-## 📁 Folder Structure
 
-```
-src/
-│
-├── components/       # Reusable components like Header, Footer, ProductCard
-├── pages/            # Page components (Home, Products, Cart, etc.)
-├── context/          # React Context for global state (e.g. Auth, Cart)
-├── hooks/            # Custom hooks (e.g. useAuth, useFetch)
-├── services/         # API requests using Axios
-├── utils/            # Helper functions and constants
-├── main.jsx          # Application entry point
-└── App.jsx           # Main app layout and routing
-```
 
 ## 🌐 Live Demo
 
@@ -92,9 +76,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Made with ❤️ using React and Vite
 
-```
 
----
-
-Let me know if you'd like to include screenshots, API docs, or environment variables setup (`.env`) in your README.
-```
