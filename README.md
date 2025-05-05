@@ -1,12 +1,100 @@
-# React + Vite
+# 🛒 E-Commerce Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application built using **React.js** and **Vite**. This project demonstrates real-world functionality including product browsing, cart management, authentication, and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User registration and login
+- Product browsing with filters (categories, brands)
+- Product details with image carousel
+- Cart and wishlist functionality
+- Checkout simulation with user orders
+- Toast notifications and loading indicators
+- Responsive UI design
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Vite** – Fast build tool for modern React apps
+- **React.js** – Frontend framework
+- **Axios** – For making API requests
+- **React Query** – Server state management and caching
+- **Formik + Yup** – Form state management and validation
+- **Bootstrap** – Responsive UI styling
+- **React Hot Toast** – Lightweight toast notifications
+- **Slick Carousel** – Image sliders for product previews
+- **React Loader Spinner** – Visual loading indicators
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/ecommerce-react-vite.git
+   cd ecommerce-react-vite
+````
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Visit the app in your browser: `http://localhost:5173`
+
+## 📁 Folder Structure
+
+```
+src/
+│
+├── components/       # Reusable components like Header, Footer, ProductCard
+├── pages/            # Page components (Home, Products, Cart, etc.)
+├── context/          # React Context for global state (e.g. Auth, Cart)
+├── hooks/            # Custom hooks (e.g. useAuth, useFetch)
+├── services/         # API requests using Axios
+├── utils/            # Helper functions and constants
+├── main.jsx          # Application entry point
+└── App.jsx           # Main app layout and routing
+```
+
+## 🌐 Live Demo
+
+[👉 View Live Project](https://your-deployment-link.com)
+
+## 🛠 Available Scripts
+
+* `npm run dev` – Start the Vite development server
+* `npm run build` – Create an optimized production build
+* `npm run preview` – Preview the production build locally
+
+## 🙌 Acknowledgements
+
+* [React](https://reactjs.org/)
+* [Vite](https://vitejs.dev/)
+* [Axios](https://axios-http.com/)
+* [React Query](https://tanstack.com/query)
+* [Formik](https://formik.org/)
+* [Yup](https://github.com/jquense/yup)
+* [Bootstrap](https://getbootstrap.com/)
+* [React Hot Toast](https://react-hot-toast.com/)
+* [React Slick](https://react-slick.neostack.com/)
+* [React Loader Spinner](https://mhnpd.github.io/react-loader-spinner/)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ using React and Vite
+
+```
+
+---
+
+Let me know if you'd like to include screenshots, API docs, or environment variables setup (`.env`) in your README.
+```
