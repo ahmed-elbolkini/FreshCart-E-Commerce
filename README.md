@@ -51,7 +51,7 @@ A modern e-commerce web application built using **React.js** and **Vite**. This 
    npm run dev
    ````
 
-4. Open in your browser:
+4. **Open in your browser:**
    [http://localhost:5173](http://localhost:5173)
 
 ----
